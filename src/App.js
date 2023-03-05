@@ -1,9 +1,13 @@
 import React from 'react';
+import { ThemeProvider } from 'styled-components';
 import MeinPage from './components/page/mein-page/mein-page';
+import { DefaultTheme } from './components/theme/default-theme';
 
 function App() {
   return (    
-    <MeinPage />
+    <ThemeProvider theme={DefaultTheme}>
+      <MeinPage />
+    </ThemeProvider>
   );
 }
 

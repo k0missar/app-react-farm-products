@@ -1,10 +1,9 @@
-.header {
+.footer {
     background-color: #ffffff;
 }
-.header__content {
-    box-sizing: border-box;
-    width: 100%;
-    padding: 10px 90px;
+
+.footer__content {
+    padding: 18px 90px;
     display: flex;
     justify-content: space-between;
     align-items: center;

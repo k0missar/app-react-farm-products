@@ -1,20 +1,21 @@
 import React from 'react';
 import './style.css';
+
 import Logo from '../../ui/logo/logo';
-import Button from '../../ui/button/button';
+import CreateBy from '../../ui/create-by/create-by';
 import { Wrapper } from '../../elements';
 
-function Header() {
+function Footer() {
     return (
-        <div className="header">
+        <div className="footer">
             <Wrapper>
-                <div className='header__content'>
+                <div className='footer__content'>
                     <Logo />
-                    <Button />
+                    <CreateBy />
                 </div>
             </Wrapper>
         </div>
     );
 }
 
-export default Header;
+export default Footer;

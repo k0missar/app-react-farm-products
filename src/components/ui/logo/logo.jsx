@@ -1,12 +1,13 @@
 import React from 'react';
-import './style.css'
+import LogoSVG from '../../../assets/farmer-logo.svg';
+import {Logotype, Text} from './style';
 
 function Logo() {
     return (
-        <div className='logo'>
-            <img src="./assets/farmer-logo.svg" alt="" width={44} height={44} />
-            <h1 className='logo__title'>Фермерские продукты</h1>
-        </div>
+        <Logotype>
+            <img src={LogoSVG} alt='Логотип компании' width='44' height='44' />
+            <Text>Фермерские продукты</Text>
+        </Logotype>
     )
 }
 
