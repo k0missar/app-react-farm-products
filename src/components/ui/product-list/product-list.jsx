@@ -1,8 +1,3 @@
-import { SwiperSlde } from 'swiper/react';
-import SwiperCore, { Pagination, Mousewhell, Scrollbar } from 'swiper/core';
-import 'swiper/swiper-bundle.min.css';
-SwiperCore.use([Mousewhell, Pagination, Scrollbar]);
-
 import ProductItem from '../product-item/product-item';
 import { CardList } from './style';
 
